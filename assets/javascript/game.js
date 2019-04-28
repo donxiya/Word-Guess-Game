@@ -97,9 +97,9 @@ game = {
         var attemptSlot = document.getElementById("attemptLeft");
         attemptSlot.textContent = game.result.attempt;
         var answerSlot = document.getElementById("answerList");
-        answerSlot.textContent = game.result.inputList;
+        answerSlot.textContent = game.result.inputList.join(" ");
         var failSlot = document.getElementById("failList");
-        failSlot.textContent = game.result.fail;
+        failSlot.textContent = game.result.fail.join(" ");
     },
     main: function () {
         var input = document.getElementById("input").value;

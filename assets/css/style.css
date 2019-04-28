@@ -4,12 +4,12 @@ input[type=text] {
     float: left;
     width: 100px;
     height: 100px;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     box-sizing: border-box;
     border: none;
     background-color: #3CBC8D;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
   }
 .tweet{

@@ -39,15 +39,12 @@ game = {
     getInput: function (inputString) {
         var string = inputString;
         game.input = string.toUpperCase();
-        console.log(game.input)
     },
     reset: function () {
         game.result.win = false;
         game.result.inputList = [];
         game.result.attempt = 10;
         game.result.fail = [];
-        // var winLoseSlot = document.getElementById("winLose");
-        // winLoseSlot.textContent = "";
     },
     // make answer from word bank, capitalize, and split into array.
     createAnswer: function () {
@@ -139,7 +136,6 @@ game = {
             var audio = new Audio(game.audioGroup.audioCorrect[j]);
             audio.play();
             document.getElementById("resultAni").src = "assets/images/happy.jpg";
-            console.log("CorrectAni");
         },
         wrongAni: function (arr) {
             var i = arr.length;
@@ -152,7 +148,6 @@ game = {
             var id = setInterval(frame, 10);
             newPos = pos + 40;
             function frame() {
-
                 if (pos === newPos) {
                     clearInterval(id);
                 } else {

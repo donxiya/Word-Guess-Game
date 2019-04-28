@@ -70,7 +70,6 @@ game = {
                     resultObj.inputList[i] = inputString;
                     guessCheck = true;
                     game.ani.correctAni(game.audioGroup.audioCorrect);
-                    console.log("rightAni");
                 }
             }
         }

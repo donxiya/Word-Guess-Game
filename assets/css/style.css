@@ -1,0 +1,166 @@
+
+
+input[type=text] {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 10px 30px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    font-size: 60px;
+    color: white;
+  }
+.tweet{
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+#attempReminder{
+    float: left;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: crimson;
+    color: beige;
+}
+.attempReminder2{
+  float: left;
+  margin: 10px 50px 10px 10px;
+  width: 200px;
+  height: 100px;
+  background-color: crimson;
+  color: beige;
+}
+.myGameStyle{
+    width:100%;
+    background-color:purple;
+
+}
+#header{
+  margin:auto;
+  padding: 0 50px 0 50px;
+  width: 960px;
+  height: 30px;
+  background-color: yellow;
+}
+#restart{
+  margin:auto;
+  width: 1060px;
+  height: 80px;
+  background-color: yellowgreen;
+}
+.startbutton{
+  width: 960px;
+  height: 100%;
+  float: left;
+  background-color: aquamarine;
+
+}
+.startbutton:hover{
+  background-color: pink;
+}
+.restarDeco{
+  float: left;
+  width: 50px;
+  height: 80px;
+  background-color: green;
+}
+
+.myGameStyle{
+    height: 500px;
+    width: 1000px;
+    padding: 10px 30px 10px 30px;
+    margin: auto;
+    background-color: red;
+}
+.scoreBoard{
+    float: left;
+    height: 500px;
+    width: 150px;
+    background-color: brown;
+}
+
+#score {
+    margin: 20px 60px 0 20px;
+    width: 70px;
+    height: 400px;
+    background: yellow;
+  }
+#scoreAni {
+  float: left;
+  width: 70px;
+  height: 0px;
+  background-color: salmon;
+}
+#game1{
+  padding-left: 30px;
+  float: left;
+  width: 820px;
+  height: 500px;
+  background-color: blueviolet;
+}
+#answerList{
+  width: 820px;
+  height: 80px;
+  margin: auto;
+  background-color: coral;
+}
+#game2{
+  width: 820px;
+  height: 370px;
+  padding-top: 10px;
+  background-color: skyblue;
+}
+#resultContainer{
+  width: 250px;
+  height: 250px;
+  float: left;
+  background-color: chartreuse;
+}
+#resultAni{
+  margin: 25px 25px 25px 25px;
+  width: 200px;
+  height: 200px;
+}
+.disabledButton {
+  pointer-events: none;
+}
+
+
+#inputContainer{
+  width: 550px;
+  height: 120px;
+  float: left;
+  padding-left: 20px;
+  background-color: brown;
+}
+#failHead{
+  float: left;
+  margin: 10px;
+  width: 100px;
+  height:100px;
+  background-color: green;
+}
+.failList{
+  float: left;
+  margin-top: 10px;
+  width: 450px;
+  height:100px;
+  background-color: green;
+}
+.win{
+  margin: auto;
+  width: 1060px;
+  height: 500px;
+  background-color: blueviolet;
+}
+.lose{
+  margin: auto;
+  width: 1060px;
+  height: 500px;
+  background-color: firebrick;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Tweet Like Our President</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+
+
+<body>
+
+    <div id=header>Header Img</div>
+    <div id=restart>
+        <div class=restarDeco></div>
+        <div class=startbutton id="startButton" onclick="game.setup();game.showGame()">Make America Great Again</div>
+        <div class=restarDeco></div>
+    </div>
+    <div id="myGame" class="myGameStyle" style="display: none;">
+        <div class="scoreBoard">
+            <div id="score">
+                <div id="scoreAni"></div>
+                <div id="scoreAniBar"></div>
+            </div>
+        </div>
+        <div id="game1">
+            <div id="answerList"></div>
+            <div id="game2">
+                <div id="resultContainer">
+                    <img id="resultAni" src="assets/images/whiteHouse.jpg">
+                </div>
+                <div id="inputContainer">
+                    <input type="text" class=inputField maxlength="1" onfocus="this.value=''" name="name" id="input"
+                        value="" />
+                    <div class="tweet" id="submitButton" onclick="game.main()">send</div>
+
+                </div>
+                <div id="attempReminder">attempts left</div>
+                <div class="attempReminder2" id="attemptLeft">10</div>
+                <div id="failHead">failed</div>
+                <div class="failList" id="failList"></div>
+            </div>
+        </div>
+    </div>
+    <div id="resultWin" class="win" style="display: none;">
+        <img src="assets/images/win.jpg">
+    </div>
+    <div id="resultLose" class="lose" style="display: none;">
+        <img src="assets/images/lose.jpg">
+    </div>
+</body>
+
+</html>

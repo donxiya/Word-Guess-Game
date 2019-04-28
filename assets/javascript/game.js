@@ -1,5 +1,5 @@
 game = {
-    wordList: ["tapp", "banana", "citrus"],
+    wordList: ["tapp", "covfefe", "origin","madam","orange","nambia","wall","hombre","caravan"],
     answer: [],
     input: null,
     result: {
